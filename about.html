@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About SPD Course</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="assets/logo.png" alt="SPD Logo" width="60">
-            <h1>Software Project Development</h1>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-        </nav>
-    </header>
-
-    <main>
+<main>
         <h2 style="text-align:center; padding: 20px 20px 0 20px;">
             This is the About page.<br>
             Used for practicing Modify vs Delete conflicts.
@@ -34,11 +14,34 @@
                 <li>Understand repository file tracking and management.</li>
             </ul>
             <p><em>Note: This content was added on the 'modify-about' branch.</em></p>
+            
+            <hr>
+
+            <!-- Instructional Team Section -->
+            <h3>The Instructional Team</h3>
+            <p>Our team consists of industry veterans specializing in DevOps and Agile workflows. We believe that breaking a repository is the best way to learn how to fix one.</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+                    <strong style="display: block; font-size: 1.2em;">Alex "The Merger" Rivera</strong>
+                    <span style="color: #666;">Lead Instructor</span>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Expert in Git internals and architectural patterns. Rarely encounters a conflict he can't resolve.</p>
+                </div>
+                <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+                    <strong style="display: block; font-size: 1.2em;">Jordan "Force Push" Smith</strong>
+                    <span style="color: #666;">Senior Developer</span>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Focuses on automation and CI/CD pipelines. Advocate for clean commit histories.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Learning Methodology Section -->
+            <h3>Learning Methodology</h3>
+            <p>The SPD Course utilizes a <strong>"Chaos Engineering"</strong> approach to learning. By intentionally creating edge-case scenarios like <em>Modify/Delete</em> conflicts, students gain the confidence to handle high-stakes production issues.</p>
+            
+            <blockquote style="background: #f9f9f9; border-left: 10px solid #ccc; margin: 1.5em 10px; padding: 0.5em 10px;">
+                "Version control is not about saving code; it is about managing the story of your project's evolution."
+            </blockquote>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2026 SPD Course</p>
-    </footer>
-</body>
-</html>
